@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #222;
+  background-color: #000000;
   font-family: sans-serif;
   box-sizing: border-box;
 }
@@ -40,20 +40,20 @@ input{
   padding: 8px;
   border: none;
   border-radius: 4px;
-  background-color: #333;
-  color: #fff;
+  background-color: #fffdfd;
+  color: #000000;
   outline: none;
 }
 
 input:focus, input:active{
-  border: 1px solid #c33e37;
+  border: 1px solid #eaa402;
 }
 
 button{
   padding: 8px 16px;
   border: none;
   border-radius: 4px;
-  background-color: #c33e37;
+  background-color: #eaa402;
   color: #fff;
   cursor: pointer;
   outline: none;
@@ -61,5 +61,5 @@ button{
 }
 
 button:hover{
-  background-color: #9e2c26;
+  background-color: #946800;
 }
